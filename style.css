@@ -5,5 +5,33 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: rgb(0, 0, 0,0.07);
+    background:linear-gradient(to bottom , rgb(24, 113, 121),rgb(5, 37, 24));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.stopWatch{
+    
+    background-color: none;
+    text-align: center;
+    font-weight: 700;
+}
+.timerDisplay{
+    background-color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow:10px 5px 30px rgb(14, 13, 13);
+}
+button{
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    margin-block: 15px;
+    cursor: pointer;
+    background-color: var(--clr);
+    box-shadow:10px 5px 30px rgb(14, 13, 13);
+    font-weight: 700;
+    color: white;
 }
