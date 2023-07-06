@@ -5,17 +5,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    /* background:linear-gradient(to bottom , rgb(24, 113, 121),rgb(5, 37, 24)); */
-    background-color: rgba(0, 0, 0, 0.7);
+    background:linear-gradient(to bottom , rgb(24, 113, 121),rgb(5, 37, 24));
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    height: 100vh;
-}
+    color: white;}
 .stopWatch{
-    
-    background-color: none;
     text-align: center;
     background-color: rgba(120, 24, 24, 0.9);
     padding: 20px 24px;
@@ -27,7 +22,7 @@ body{
     background-color: rgb(24, 23, 23);
     padding: 20px 50px;
     border-radius: 10px;
-    box-shadow: inset 10px 5px 30px rgb(14, 13, 13);
+    box-shadow: inset 90px 90px 90px rgb(49, 21, 21);
     border: none;
 
 } 
@@ -42,6 +37,15 @@ button{
     margin-inline: 5px;
     cursor: pointer;
     background-color: var(--clr);
+    box-shadow: 5px 5px 15px  rgb(0, 0, 0);
     font-weight: 700;
+    font-size: 18px;
     color: white;
+}
+button:hover{
+    background-color: rgb(59, 67, 64);
+}
+button:active{
+    background-color: rgb(244, 241, 241);
+    color: rgb(9, 9, 9);
 }
