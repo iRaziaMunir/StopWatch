@@ -28,7 +28,7 @@ body{
 } 
 @media screen and (max-width: 768px) {
    body{
-        background-color: rgb(2, 2, 2);
+        background-color: rgb(10, 219, 184);
     }
   .timerDisplay {
     font-size:35px;
@@ -37,12 +37,8 @@ body{
   }
     button{
     width: 100%;
-    padding: 20px 24px;
-    font-size:35px;
-    color: black;
   }
 }
-
 .buttons{
     margin-top: 20px;
 }
@@ -55,7 +51,7 @@ button{
     cursor: pointer;
     background-color: var(--clr);
     box-shadow: 5px 5px 15px  rgb(0, 0, 0);
-    font-weight: 700;
+    font-weight: 900;
     font-size: 18px;
     color: white;
 }
