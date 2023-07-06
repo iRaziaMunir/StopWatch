@@ -5,7 +5,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background:linear-gradient(to bottom , rgb(24, 113, 121),rgb(5, 37, 24));
+    /* background:linear-gradient(to bottom , rgb(24, 113, 121),rgb(5, 37, 24)); */
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,22 +17,31 @@ body{
     
     background-color: none;
     text-align: center;
-    font-weight: 700;
+    background-color: rgba(120, 24, 24, 0.9);
+    padding: 20px 24px;
+    border-radius: 10px;
 }
 .timerDisplay{
-    background-color: black;
+    font-size:45px;
+    font-weight: 600;
+    background-color: rgb(24, 23, 23);
     padding: 20px 50px;
     border-radius: 10px;
-    box-shadow:10px 5px 30px rgb(14, 13, 13);
+    box-shadow: inset 10px 5px 30px rgb(14, 13, 13);
+    border: none;
+
+} 
+.buttons{
+    margin-top: 20px;
 }
 button{
     padding: 12px 24px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
     margin-block: 15px;
+    margin-inline: 5px;
     cursor: pointer;
     background-color: var(--clr);
-    box-shadow:10px 5px 30px rgb(14, 13, 13);
     font-weight: 700;
     color: white;
 }
