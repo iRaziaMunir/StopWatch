@@ -30,6 +30,7 @@ body{
   
   .timerDisplay {
     font-size:30px;
+    font-weight: 900;
     width: 100%;
     padding: 30px 20px;
   }
