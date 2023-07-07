@@ -9,7 +9,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;}
+    color: white;
+    height: 100vh;
+}
 .stopWatch{
     text-align: center;
     background-color: rgba(120, 24, 24, 0.9);
@@ -28,7 +30,7 @@ body{
 } 
 @media screen and (max-width: 768px) {
    body{
-        background-color: rgb(10, 219, 184);
+        background-color: rgba(0, 0, 0, 0.024);
     }
   .timerDisplay {
     font-size:20px;
